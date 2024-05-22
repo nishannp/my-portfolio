@@ -1,0 +1,74 @@
+/* Contact.css */
+.contact-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+  
+  .contact-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .contact-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .contact-link:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    margin-right: 10px;
+  }
+  
+  .twitter {
+    color: #1DA1F2;
+  }
+  
+  .linkedin {
+    color: #0077B5;
+  }
+  
+  .github {
+    color: #333;
+  }
+  
+  .email {
+    color: #EA4335;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .contact-links {
+      flex-direction: column;
+    }
+  
+    .contact-link {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .icon {
+      font-size: 1.2rem;
+    }
+  }
+  
