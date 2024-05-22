@@ -1,0 +1,39 @@
+/* Footer.css */
+.footer {
+    background: #333;
+    color: #fff;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1500px;
+    padding: 0 24px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
+  /* Mobile styles */
+  @media screen and (max-width: 960px) {
+    .footer {
+      height: auto;
+      padding: 20px 0;
+    }
+  
+    .footer-container {
+      flex-direction: column;
+    }
+  }
+  
