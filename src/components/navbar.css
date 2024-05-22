@@ -13,9 +13,23 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    position: relative;
+    
     z-index: 10;
   }
+
+  /* Add to Navbar.css */
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #333;
+  z-index: 1000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
   
   .navbar-container {
     display: flex;
@@ -130,3 +144,8 @@
     }
   }
   
+
+  /* Add to relevant CSS files */
+.navbar a, .project-item, .contact-link {
+  transition: all 0.3s ease;
+}

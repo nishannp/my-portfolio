@@ -5,8 +5,8 @@ import Navbar from './components/navbar';
 import Home from './components/home';
 import Gallery from './components/gallery';
 import Projects from './components/projects';
-import Contact from './components/contact';
 import Footer from './components/footer';
+import './App.css';
 
 function App() {
   return (
@@ -17,7 +17,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>
