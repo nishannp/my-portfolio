@@ -13,11 +13,14 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
+    position: relative;
+    z-index: 10;
   }
   
   .navbar-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 80px;
     width: 100%;
     max-width: 1500px;
@@ -36,6 +39,7 @@
   
   .menu-icon {
     display: none;
+    color: #fff;
   }
   
   .nav-menu {
@@ -56,12 +60,12 @@
     height: 100%;
     display: flex;
     align-items: center;
+    transition: background 0.3s ease;
   }
   
   .nav-links:hover {
     background-color: #575757;
     border-radius: 4px;
-    transition: all 0.2s ease-out;
   }
   
   /* Mobile styles */
@@ -73,7 +77,6 @@
   
     .menu-icon {
       display: block;
-      color: #fff;
       font-size: 1.8rem;
       cursor: pointer;
     }
@@ -89,14 +92,11 @@
       opacity: 1;
       transition: all 0.5s ease;
       background: #333;
+      z-index: 1;
     }
   
     .nav-menu.active {
-      background: #333;
       left: 0;
-      opacity: 1;
-      transition: all 0.5s ease;
-      z-index: 1;
     }
   
     .nav-item {
@@ -108,6 +108,25 @@
       padding: 2rem;
       width: 100%;
       display: table;
+    }
+  }
+  
+  /* Desktop styles */
+  @media screen and (min-width: 961px) {
+    .navbar {
+      background: linear-gradient(to right, #333, #444);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+  
+    .nav-links {
+      padding: 0.5rem 2rem;
+    }
+  
+    .nav-links:hover {
+      background-color: transparent;
+      color: #ff8c00;
+      border-bottom: 2px solid #ff8c00;
+      transition: border-bottom 0.3s ease;
     }
   }
   
