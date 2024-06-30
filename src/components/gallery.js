@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import './gallery.css';
+import SEO from './seo';
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -8,13 +10,13 @@ const Gallery = () => {
     // Add paths to your images here
     'images/photo1.jpg',
     'images/photo2.jpg',
-    'images/photo3.jpg',
-    'images/photo4.jpg',
+    'images/memorable_cycle_ride_2024.jpg',
     'images/photo5.jpg',
     'images/photo6.jpg',
     'images/photo7.jpg',
-    'images/photo8.jpg',
-    'images/photo9.jpg',
+    'images/photo3.jpg',
+    'images/photo4.jpg',
+    'images/pashupati_visit_2024.jpg',
   ];
 
   const openImage = (image) => {
@@ -27,10 +29,21 @@ const Gallery = () => {
 
   return (
     <div className="gallery-container">
+      <SEO 
+        title="Gallery - Nishan Nepali"
+        description="Explore the photography gallery of Nishan Nepali, showcasing stunning captures of nature, landscapes, and moments of life. Discover the beauty through the lens."
+        keywords="Nishan Nepali, Nishan Nepali Gallery, Photography, Gallery, Nature Photography, Landscape Photography, Surkhet, Nepal, Portrait"
+        canonical="https://nishannepali.com.np/gallery"
+      />
       <div className="gallery-grid">
         {images.map((image, index) => (
           <div key={index} className="gallery-item">
-            <img src={image} alt={`Gallery ${index + 1}`} onClick={() => openImage(image)} />
+            <LazyLoadImage
+              src={image}
+              alt={`Gallery ${index + 1}`}
+              effect="blur"
+              onClick={() => openImage(image)}
+            />
           </div>
         ))}
       </div>

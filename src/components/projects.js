@@ -1,8 +1,19 @@
 import React from 'react';
 import './projects.css';
+import SEO from './seo';
 
 const Projects = () => {
   const projects = [
+    {
+      name: 'Hamro Suchan',
+      image: 'project/hamrosuchana.png',
+      link: 'https://hamrosuchana.rf.gd',
+    },
+    {
+      name: 'Snav Date',
+      image: 'project/snavdate.png',
+      link: 'https://snavdate.rf.gd',
+    },
     {
       name: 'Snav Team',
       image: 'project/project1.jpg',
@@ -11,7 +22,12 @@ const Projects = () => {
     {
       name: 'Snav Notes',
       image: 'project/project2.jpg',
-      link: 'https://snavnote.netlify.app',
+      link: 'https://snavnotes.rf.gd',
+    },
+    {
+      name: 'Umesh Cycle',
+      image: 'project/umeshcyclestore.png',
+      link: 'https://umeshcycle.rf.gd',
     },
     {
       name: 'Love Tester',
@@ -50,13 +66,24 @@ const Projects = () => {
     },
     {
       name: 'Snav Music',
-      image: 'project/project9.jpg',
+      image: 'project/project10.jpg',
       link: 'https://snavmusic.netlify.app',
+    },
+    {
+      name: 'Nishan Diaries',
+      image: 'project/nishandiaries.png',
+      link: 'https://nishandiaries.rf.gd',
     },
   ];
 
   return (
     <div className="projects-container">
+       <SEO 
+        title="Projects - Nishan Nepali"
+        description="Discover the projects of Nishan Nepali, including web development, mobile apps, and coding experiments. Explore the innovative solutions and creative ideas."
+        keywords="Nishan Nepali, Projects, Web Development, Mobile Apps, Coding, Programming, Surkhet, Nepal"
+        canonical="https://nishannepali.com.np/projects"
+      />
       <h2>My Projects</h2>
       <div className="projects-grid">
         {projects.map((project, index) => (

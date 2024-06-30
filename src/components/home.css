@@ -52,6 +52,12 @@
   
   /* Responsive styles */
   @media screen and (max-width: 768px) {
+
+    .home-container {
+
+      padding:10px;
+
+    }
     .profile-section {
       padding: 20px;
     }
