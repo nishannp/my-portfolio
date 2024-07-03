@@ -40,7 +40,7 @@ const Gallery = () => {
           <div key={index} className="gallery-item">
             <LazyLoadImage
               src={image}
-              alt={`Gallery ${index + 1}`}
+              alt={`Nishan Nepali Gallery Image ${index + 1}`}
               effect="blur"
               onClick={() => openImage(image)}
             />

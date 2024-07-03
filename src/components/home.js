@@ -2,22 +2,37 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import './home.css';
 import SEO from './seo';
+import SchemaMarkup from './schemamarkup';
 
 const Home = () => {
+  const calculateAge = () => {
+    const birthDate = new Date('2006-05-05');
+    const today = new Date();
+    let age = today.getFullYear() - birthDate.getFullYear();
+    const monthDiff = today.getMonth() - birthDate.getMonth();
+    
+    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+    
+    return age;
+  };
+
   return (
     <div className="home-container">
-       <SEO 
+    <SEO
         title="Nishan Nepali"
-        description="Welcome! My name is Nishan Nepali, and I'm a passionate and driven individual navigating the dynamic landscape of adolescence. At the age of 17, I find myself on the brink of adulthood, eagerly embracing the opportunities and challenges that come my way."
+        description={`Welcome! My name is Nishan Nepali, and I'm a passionate and driven individual navigating the dynamic landscape of adolescence. At the age of ${calculateAge()}, I find myself on the brink of adulthood, eagerly embracing the opportunities and challenges that come my way.`}
         keywords="Nishan Nepali, Portfolio, Nishan Nepali Portfolio, Nishan, About Nishan Nepali, Surkhet, Nepal, Photography, Nature Exploration, Coding, Economics, Computer Science, Academic Excellence, Lifelong Learning"
         canonical="https://nishannepali.com.np/"
       />
+        <SchemaMarkup />
       <div className="profile-section">
         <img src="images/profile.jpg" alt="Nishan Nepali" className="profile-photo" />
         <h1>Nishan Nepali</h1>
 <hr className="divider" />
 <h2>About Me</h2>
-<p>Welcome! My name is Nishan Nepali, and I'm a passionate and driven individual navigating the dynamic landscape of adolescence. At the age of 17, I find myself on the brink of adulthood, eagerly embracing the opportunities and challenges that come my way.</p>
+<p>Welcome! My name is Nishan Nepali, and I'm a passionate and driven individual navigating the dynamic landscape of adolescence. At the age of {calculateAge()}, I find myself on the brink of adulthood, eagerly embracing the opportunities and challenges that come my way.</p>
 <p>Born and raised in the scenic district of Surkhet, Nepal, I am fortunate to call this breathtaking region my home. Surrounded by lush greenery, majestic mountains, and vibrant culture, I draw constant inspiration from the beauty of my surroundings.</p>
 <p>In addition to my academic pursuits, I am deeply passionate about three main interests: photography, exploring nature, and coding. These pursuits serve as the cornerstone of my identity, allowing me to express myself creatively, stay active, and engage with the ever-evolving world of technology.</p>
 <p>Photography, in particular, holds a special place in my heart. Through the lens of my camera, I strive to capture the essence of life's fleeting moments – from the subtle beauty of nature to the raw emotions of human experience. Each photograph is a testament to my curiosity and appreciation for the world around me.</p>
