@@ -377,37 +377,44 @@ const Timeline = ({ events }) => {
       </StyledVerticalTimeline>
 
       <Lightbox
-        open={lightbox.open}
-        close={() => setLightbox({ open: false, index: 0 })}
-        index={lightbox.index}
-        slides={slides}
-        render={{
-          slide: ({ slide }) => (
-            <div style={{ position: 'relative' }}>
-              <img 
-                src={slide.src} 
-                alt={slide.alt} 
-                style={{ maxHeight: '90vh', width: 'auto' }} 
-              />
-              {slide.title && (
-                <div style={{
-                  position: 'absolute',
-                  bottom: 0,
-                  left: 0,
-                  right: 0,
-                  background: 'rgba(0,0,0,0.7)',
-                  color: 'white',
-                  padding: '15px',
-                  textAlign: 'center'
-                }}>
-                  <h3 style={{ margin: '0 0 5px 0' }}>{slide.title}</h3>
-                  <p style={{ margin: 0, fontSize: '0.9em' }}>{slide.description}</p>
-                </div>
-              )}
-            </div>
-          )
-        }}
-      />
+  open={lightbox.open}
+  close={() => setLightbox({ open: false, index: 0 })}
+  index={lightbox.index}
+  slides={slides}
+  render={{
+    slide: ({ slide }) => (
+      <div style={{ position: 'relative' }}>
+        <img 
+          src={slide.src} 
+          alt={slide.alt} 
+          style={{ 
+            maxHeight: '90vh', 
+            width: 'auto', 
+            maxWidth: '90vw', // Ensures it fits within mobile screen width
+            height: 'auto', // Maintains aspect ratio
+          }} 
+        />
+        {slide.title && (
+          <div style={{
+            position: 'absolute',
+            bottom: 0,
+            left: 0,
+            right: 0,
+            background: 'rgba(0,0,0,0.7)',
+            color: 'white',
+            padding: '10px',
+            textAlign: 'center',
+            fontSize: '0.9em' // Smaller font size for mobile
+          }}>
+            <h3 style={{ margin: '0 0 5px 0', fontSize: '1.2em' }}>{slide.title}</h3>
+            <p style={{ margin: 0 }}>{slide.description}</p>
+          </div>
+        )}
+      </div>
+    )
+  }}
+/>
+
     </TimelineContainer>
   );
 };
