@@ -5,6 +5,11 @@ import SEO from './seo';
 const Projects = () => {
   const projects = [
     {
+      name: '4 to 9 cafe',
+      image: 'project/project11.jpg',
+      link: 'https://4to9cafe.com.np',
+    },
+    {
       name: 'Hamro Suchan',
       image: 'project/hamrosuchana.png',
       link: 'https://hamrosuchana.rf.gd',
@@ -69,10 +74,11 @@ const Projects = () => {
       image: 'project/project10.jpg',
       link: 'https://snavmusic.netlify.app',
     },
+   
     {
-      name: 'Nishan Diaries',
-      image: 'project/nishandiaries.png',
-      link: 'https://nishandiaries.rf.gd',
+      name: 'Nishan Movies',
+      image: 'project/project12.jpg',
+      link: 'https://movies.nishannepali.com.np',
     },
   ];
 

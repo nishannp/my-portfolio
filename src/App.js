@@ -230,13 +230,82 @@ const events = [
   {
     date: '2024',
     title: 'Pashupati Visit',
-    description: 'Dinesh and Me went for Pashupati Visit..',
+    description: 'Mom and me',
     image: '/images/pashupati_visit_2024.jpg',
   },
 
+  {
+    date: '2024',
+    title: 'Movie Time',
+    description: 'The image in taken in Kathmandu, BG Mall Movie Theatre. We really enjoy the movie Behuli from Meghauli.',
+    image: '/images/khagendra_uncle_movie.jpg',
+  },
+
+  {
+    date: '2024',
+    title: 'Dashian',
+    description: 'Our whole family is included in this Picture some people my left.',
+    image: '/images/dashian_2024.jpg',
+  },
 
 
+  {
+    date: '2024',
+    title: 'Dashian Day 2',
+    description: 'Went to Katukuwa early morning with vishan to have some tea and we played Ping as well in Bangesimal that morning and we  went to danda in evening as well to have some nice snacks but it didnt go as expected.',
+    image: '/images/vishan_nishan_dashian.jpg',
+  },
 
+  {
+    date: '2024',
+    title: 'Dashian Day 3',
+    description: 'Ishita and Me in the picture I teached her how to use camera and she really liked it.',
+    image: '/images/ishita_and_me.jpg',
+  },
+
+  {
+    date: '2024',
+    title: 'Coffee Time',
+    description: 'Vishan and Me went to the cafe 4 to 9 to do some business talk and the owner give us coffee treat twice. We created website for him.',
+    image: '/images/4to9cafe.jpg',
+  },
+
+  {
+    date: '2024',
+    title: 'Laxmi Puja Vanjey',
+    description: 'It is a day of Laxmi Puja. Santu sister came to our house to create a beautiful rangoli. I was babysitting my nephew.',
+    image: '/images/vanjey_and_me.jpg',
+  },
+
+  {
+    date: '2024',
+    title: 'Rangoli',
+    description: 'Rangoli created by Santu Sister it was really beautiful.',
+    image: '/images/rangoli_santu_dd.jpg',
+  },
+
+  {
+    date: '2024',
+    title: 'Cute Kids',
+    description: 'It was a day of laxmi tihar and these cute kids shows up in my house to play bhaili and I click photo of them with my camera. Cuties.',
+    image: '/images/bhaili_cuties.jpg',
+  },
+
+  
+  {
+    date: '2024',
+    title: 'Big Bhaili Team',
+    description: 'The big bhaili team they dance really well and nice. I clicked some photo of them.',
+    image: '/images/thulo_bhaili.jpg',
+  },
+
+
+  {
+    date: '2024',
+    title: 'Bhaitika',
+    description: 'Bhaitika Day. It is always fun to celebrate bhaitika.',
+    image: '/images/bhaitika_2024.jpg',
+  },
   // Add more events as needed
 ];
 
