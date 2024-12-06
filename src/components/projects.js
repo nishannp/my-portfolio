@@ -5,12 +5,17 @@ import SEO from './seo';
 const Projects = () => {
   const projects = [
     {
+      name: 'SVSS SCHOOL',
+      image: 'project/svss.png',
+      link: 'https://svss.edu.np',
+    },
+    {
       name: '4 to 9 cafe',
       image: 'project/project11.jpg',
       link: 'https://4to9cafe.com.np',
     },
     {
-      name: 'Hamro Suchan',
+      name: 'Hamro Suchana',
       image: 'project/hamrosuchana.png',
       link: 'https://hamrosuchana.rf.gd',
     },
