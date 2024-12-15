@@ -15,6 +15,11 @@ const Projects = () => {
       link: 'https://4to9cafe.com.np',
     },
     {
+      name: 'SNAV ASSISTANT',
+      image: 'project/snavai.jpg',
+      link: 'https://ai.nishannepali.com.np',
+    },
+    {
       name: 'Hamro Suchana',
       image: 'project/hamrosuchana.png',
       link: 'https://hamrosuchana.rf.gd',
@@ -94,6 +99,7 @@ const Projects = () => {
         description="Discover the projects of Nishan Nepali, including web development, mobile apps, and coding experiments. Explore the innovative solutions and creative ideas."
         keywords="Nishan Nepali, Projects, Web Development, Mobile Apps, Coding, Programming, Surkhet, Nepal"
         canonical="https://nishannepali.com.np/projects"
+         image="images/svss.png"
       />
       <h2>My Projects</h2>
       <div className="projects-grid">

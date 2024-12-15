@@ -25,6 +25,7 @@ const Home = () => {
         description={`Welcome! My name is Nishan Nepali, and I'm a passionate and driven individual navigating the dynamic landscape of adolescence. At the age of ${calculateAge()}, I find myself on the brink of adulthood, eagerly embracing the opportunities and challenges that come my way.`}
         keywords="Nishan Nepali, Portfolio, Nishan Nepali Portfolio, Nishan, About Nishan Nepali, Surkhet, Nepal, Photography, Nature Exploration, Coding, Economics, Computer Science, Academic Excellence, Lifelong Learning"
         canonical="https://nishannepali.com.np/"
+        image="images/profile.jpg"
       />
         <SchemaMarkup />
       <div className="profile-section">

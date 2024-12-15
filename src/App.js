@@ -9,6 +9,7 @@ import Timeline from './components/timeline';
 import Footer from './components/footer';
 import './App.css';
 
+
 const events = [
   {
     date: 'January 2015',
@@ -305,6 +306,12 @@ const events = [
     title: 'Bhaitika',
     description: 'Bhaitika Day. It is always fun to celebrate bhaitika.',
     image: '/images/bhaitika_2024.jpg',
+  },
+  {
+    date: '2024',
+    title: 'Bhaitika',
+    description: 'I had a lovely time visiting Iskcon with Swodesh, Rashmi, Shristi, Himani, and Ritika.  I got to know three of them better, which was great.',
+    image: '/images/Iskcon_visit_2024.jpg',
   },
   // Add more events as needed
 ];

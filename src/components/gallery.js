@@ -34,6 +34,7 @@ const Gallery = () => {
         description="Explore the photography gallery of Nishan Nepali, showcasing stunning captures of nature, landscapes, and moments of life. Discover the beauty through the lens."
         keywords="Nishan Nepali, Nishan Nepali Gallery, Photography, Gallery, Nature Photography, Landscape Photography, Surkhet, Nepal, Portrait"
         canonical="https://nishannepali.com.np/gallery"
+         image="images/photo4.jpg"
       />
       <div className="gallery-grid">
         {images.map((image, index) => (

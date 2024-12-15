@@ -323,6 +323,7 @@ const Timeline = ({ events }) => {
         description="Follow the timeline of Nishan Nepali's journey, highlighting significant milestones, projects, and achievements in photography, coding, and academic pursuits."
         keywords="Nishan Nepali, Timeline, Journey, Milestones, Achievements, Photography, Coding, Surkhet, Nepal"
         canonical="https://nishannepali.com.np/timeline"
+         image="images/Iskcon_visit_2024.jpg"
       />
 
       <FilterSection>
