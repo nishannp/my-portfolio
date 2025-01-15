@@ -309,9 +309,27 @@ const events = [
   },
   {
     date: '2024',
-    title: 'Bhaitika',
+    title: 'Budhanilkantha Visit',
     description: 'I had a lovely time visiting Iskcon with Swodesh, Rashmi, Shristi, Himani, and Ritika.  I got to know three of them better, which was great.',
     image: '/images/Iskcon_visit_2024.jpg',
+  },
+  {
+    date: '2025',
+    title: 'Bhaktapur',
+    description: 'Visited Bhaktapur with my friend Swodesh and it was really fun and we also went to the cafe to have some coffee and clicked a lot of pictures with my camera.',
+    image: '/images/bhaktapur-2.jpg',
+  },
+  {
+    date: '2025',
+    title: 'Bhaktapur',
+    description: 'It was a nice time meeting with new peoples and knowing a lot of things about them. I also clicked some pictures and videos of them.',
+    image: '/images/bhaktapur-4.jpg',
+  },
+  {
+    date: '2025',
+    title: 'Bhaktapur',
+    description: 'We absolutely adored her beautiful soul. She was incredibly helpful in capturing some truly captivating moments for us. We had planned to thank her with some chocolates, but she quietly went on her way without a word. We just wish we could have shown our appreciation in person..',
+    image: '/images/bhaktapur-5.jpg',
   },
   // Add more events as needed
 ];

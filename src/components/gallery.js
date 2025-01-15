@@ -17,6 +17,8 @@ const Gallery = () => {
     'images/photo3.jpg',
     'images/photo4.jpg',
     'images/pashupati_visit_2024.jpg',
+    'images/bhaktapur-1.jpg',
+    'images/bhaktapur-2.jpg',
   ];
 
   const openImage = (image) => {
