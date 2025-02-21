@@ -331,6 +331,42 @@ const events = [
     description: 'We absolutely adored her beautiful soul. She was incredibly helpful in capturing some truly captivating moments for us. We had planned to thank her with some chocolates, but she quietly went on her way without a word. We just wish we could have shown our appreciation in person..',
     image: '/images/bhaktapur-5.jpg',
   },
+  {
+    date: '2025',
+    title: 'Gothikada',
+    description: 'With cute nani during the shoot of vishan new song.',
+    image: '/images/little_nani_and_nishan.png',
+  },
+  {
+    date: '2025',
+    title: 'Babe Song Shooting',
+    description: 'Whole team went to shoot the song Babe. It was really fun and meet with vision brother who have really broad vision.',
+    image: 'images/whole_team_babe_shooting.png',
+  },
+  {
+    date: '2025',
+    title: 'Hami Teen Bhai',
+    description: 'Teen Bhai Teeno Hi Tabhai. ',
+    image: '/images/teen_bhai_teeno_tabhai.png',
+  },
+  {
+    date: '2025',
+    title: 'Dui Bhai',
+    description: 'Guras ko fed muni...',
+    image: '/images/guras_ko_fed_muni.png',
+  },
+  {
+    date: '2025',
+    title: 'Four bhai four destruction',
+    description: 'Babe music video shooting last day. We 4 friends went for shooting it to Dharam Pokhara..',
+    image: '/images/babe_shoot_last_day.png',
+  },
+  {
+    date: '2025',
+    title: 'Swodesh Brother Wedding',
+    description: 'Swodesh only invited me and vishan but even and khagendra also joined us and we did a lot of fun that day and night.',
+    image: '/images/swodesh_brother_marriage.png',
+  },
   // Add more events as needed
 ];
 

@@ -7,7 +7,7 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    // Add paths to your images here
+   'images/nishan_solo_profile.png',
     'images/photo1.jpg',
     'images/photo2.jpg',
     'images/memorable_cycle_ride_2024.jpg',
