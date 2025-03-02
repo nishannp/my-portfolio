@@ -367,6 +367,18 @@ const events = [
     description: 'Swodesh only invited me and vishan but even and khagendra also joined us and we did a lot of fun that day and night.',
     image: '/images/swodesh_brother_marriage.png',
   },
+  {
+    date: '2025',
+    title: 'Baje Ko Sekuwa',
+    description: 'We went to baje ko sekuwa at Nepalgunj. It was really fun.',
+    image: '/images/baje_ko_sekuwa.png',
+  },
+  {
+    date: '2025',
+    title: 'Day in a life of Hermeone',
+    description: 'Just clicked a photo of hermeone.',
+    image: '/images/normal_day.png',
+  },
   // Add more events as needed
 ];
 

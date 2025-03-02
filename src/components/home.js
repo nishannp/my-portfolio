@@ -29,7 +29,7 @@ const Home = () => {
       />
         <SchemaMarkup />
       <div className="profile-section">
-        <img src="images/profile.jpg" alt="Nishan Nepali" className="profile-photo" />
+        <img src="images/eye.jpg" alt="Nishan Nepali" className="profile-photo" />
         <h1>Nishan Nepali</h1>
 <hr className="divider" />
 <h2>About Me</h2>
