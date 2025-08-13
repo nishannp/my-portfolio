@@ -214,6 +214,27 @@ const events = [
     image: '/images/class_11_welcome_2023.jpg',
   },
 
+
+
+    {
+    date: '2023',
+    title: 'College Days',
+    description: 'The photo was taken in Computer class and it used to be so much fun.',
+    image: '/images/college_computer.jpeg',
+  },
+
+
+  
+
+    {
+    date: '2023',
+    title: 'College Farewell',
+    description: 'It was fun..',
+    image: '/images/college_farewell11.jpeg',
+  },
+
+
+
   {
     date: '2024',
     title: 'Memorable Ride',
@@ -367,18 +388,102 @@ const events = [
     description: 'Swodesh only invited me and vishan but even and khagendra also joined us and we did a lot of fun that day and night.',
     image: '/images/swodesh_brother_marriage.png',
   },
+
+   {
+    date: '2025',
+    title: 'Briyani Party',
+    description: 'Vishan Family invited Swodesh and I for the Briyani party and it was so much fun..',
+    image: '/images/briyani_party.jpeg',
+  },
+
   {
     date: '2025',
     title: 'Baje Ko Sekuwa',
     description: 'We went to baje ko sekuwa at Nepalgunj. It was really fun.',
     image: '/images/baje_ko_sekuwa.png',
   },
+
+  {
+
+    date: '2025',
+    title: 'Drone Operator',
+    description: 'Khagey, Koshish, Vishan and I went to Katakuwa and we operate the drone it was fun..',
+    image: '/images/drone_operator.jpeg',
+
+  },
+
   {
     date: '2025',
-    title: 'Day in a life of Hermeone',
-    description: 'Just clicked a photo of hermeone.',
-    image: '/images/normal_day.png',
+    title: 'Cycling To Gurasey',
+    description: 'We went to gurasey by cycle. It was really fun and we also had some nice food there in Dads Pride Resort.',
+    image: '/images/cycling_gurasey.jpeg',
   },
+
+
+   {
+    date: '2025',
+    title: 'Bardiya Diaries',
+    description: 'Had a 3 days trip from Briendrangar to Nepalgunj, then Bardiya to Koholpur and then Birendrangar it was so much fun....',
+    image: '/images/bardiya_diaries.jpeg',
+  },
+
+    {
+    date: '2025',
+    title: 'Bardiya Rafting',
+    description: 'During the Bardiya trip we also went for rafting and it was really fun.',
+    image: '/images/bardiya_rafting.jpeg',
+  },
+
+  {
+    date: '2025',
+    title: 'Rhino in Bardiya',
+    description: 'We went to Bardiya National Park and we saw a Rhinos and other animals.',
+    image: '/images/rhino_with_nishan.jpeg',
+  },
+
+
+   {
+    date: '2025',
+    title: 'Khagendra Birthday',
+    description: 'We went to Temple in morning and later in evening we had party in his home...',
+    image: '/images/khagendra_birthday.jpeg',
+  },
+
+
+   {
+    date: '2025',
+    title: 'Got Pixel 9 pro XL',
+    description: 'Finally got my hands on the Pixel 9 Pro XL on Augurst 1st, 2025. It was a great day.',
+    image: '/images/pixel_9pro_xl.jpeg',
+  },
+
+
+   {
+    date: '2025',
+    title: 'Ashish Passed +2',
+    description: 'Ashish passed +2 and we went to celebrate it with cake.',
+    image: '/images/ashish_pass.jpeg',
+  },
+
+    {
+    date: '2025',
+    title: 'Bhai Tika',
+    description: 'Bhai Tika....',
+    image: '/images/bhai_tika_01.jpeg',
+  },
+
+    {
+    date: '2025',
+    title: 'Bhai Tika',
+    description: 'Bhai Tika....',
+    image: '/images/bhai_tika_02.jpeg',
+  },
+
+
+
+
+
+  
   // Add more events as needed
 ];
 

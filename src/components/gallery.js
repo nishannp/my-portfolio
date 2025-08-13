@@ -7,18 +7,29 @@ const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-   'images/nishan_solo_profile.png',
+   
     'images/photo1.jpg',
     'images/photo2.jpg',
+    'images/college_day.jpg',
     'images/memorable_cycle_ride_2024.jpg',
-    'images/photo5.jpg',
+  
+     'images/bhaktapur-2.jpg',
+    'images/nishan_solo_profile.png',
+      'images/photo5.jpg',
+    'images/nishan_in_gurasey.jpeg',
+    'images/nishan_solo.jpeg',
     'images/photo6.jpg',
     'images/photo7.jpg',
-    'images/photo3.jpg',
-    'images/photo4.jpg',
-    'images/pashupati_visit_2024.jpg',
+   
     'images/bhaktapur-1.jpg',
-    'images/bhaktapur-2.jpg',
+   
+
+    
+       'images/rhino_with_nishan.jpeg',
+    'images/pashupati_visit_2024.jpg',
+    'images/photo4.jpg',
+         'images/photo3.jpg',
+          'images/cycling_nishan.jpeg',
   ];
 
   const openImage = (image) => {
