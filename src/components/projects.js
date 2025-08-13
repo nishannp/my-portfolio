@@ -4,6 +4,17 @@ import SEO from './seo';
 
 const Projects = () => {
   const projects = [
+ {
+      name: 'THE GCSC',
+      image: 'project/gcsc.jpg',
+      link: 'https://thegcsc.org',
+    },
+
+     {
+      name: 'BAKO SAMPATI',
+      image: 'project/bakosampati.jpg',
+      link: 'https://bakosampati.com',
+    },
     {
       name: 'SVSS SCHOOL',
       image: 'project/svss.png',
