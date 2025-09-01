@@ -21,15 +21,17 @@ const Gallery = () => {
     'images/photo6.jpg',
     'images/photo7.jpg',
    
+    'images/viewchula.jpeg',
+
     'images/bhaktapur-1.jpg',
-   
+    'images/cycling_nishan.jpeg',
 
     
        'images/rhino_with_nishan.jpeg',
     'images/pashupati_visit_2024.jpg',
     'images/photo4.jpg',
          'images/photo3.jpg',
-          'images/cycling_nishan.jpeg',
+         
   ];
 
   const openImage = (image) => {

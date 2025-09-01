@@ -479,6 +479,31 @@ const events = [
     image: '/images/bhai_tika_02.jpeg',
   },
 
+   {
+    date: '2025',
+    title: 'ViewChula',
+    description: 'It was a fun day at ViewChula with new peoples and all of them were really nice and gentle.',
+    image: '/images/viewchulateam.jpeg',
+  },
+
+
+   {
+    date: '2025',
+    title: 'Bipin and Salina',
+    description: 'They were really nice...',
+    image: '/images/bipinandsalina.jpeg',
+  },
+
+
+    {
+    date: '2025',
+    title: 'Dushman',
+    description: 'They were really nice.',
+    image: '/images/dushman.jpeg',
+  },
+
+
+
 
 
 
